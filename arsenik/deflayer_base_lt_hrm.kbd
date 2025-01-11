@@ -1,7 +1,7 @@
 ;; Base layer: layer-taps under the thumbs + home-row mods on SDF and JKL
 
 (deflayer base
-  q    w    e    r    t    _    y    u    i    o    p
+  q    w    e    @rr    t    _    y    @uu    i    o    p
   a    @ss2  @dd2  @ff2  g         h    @jj2  @kk2  @ll2  ;
   z    x    c    v    b   102d  n    m    ,    .    /
             @sft          @nav            @alt
@@ -33,6 +33,8 @@
   kk2 (tap-hold $tto $hto k rctl)
   ll (tap-hold $tto $hto l rmet)
   ll2 (tap-hold $tto $hto l ralt)
+  rr (tap-hold $tto $hto r lalt)
+  uu (tap-hold $tto $hto u lalt)
 )
 
 ;; vim: set ft=lisp
